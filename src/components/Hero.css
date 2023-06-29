@@ -1,0 +1,37 @@
+.right {
+    /* border: 1px solid navy; */
+    position: relative;
+    
+}
+
+.img1 {
+    position: relative;
+    width: 491px;
+    height: 281px;
+    flex-shrink: 0;
+}
+
+.img2 {
+    position: absolute;
+    top: 90px;
+    right: 53px;
+    width: 491px;
+    height: 281px;
+    flex-shrink: 0;
+}
+
+.icon {
+    z-index: 11;
+    margin-top: 150px;
+    display: flex;
+    gap: 3rem;
+}
+
+.footer {                                 
+    background-image: linear-gradient(to bottom right, #fff 45%, #2c1a4e 40%, #712e90);
+    /* clip-path: polygon(75% 47%, 0 0, 0 78%); */
+    /* background-image: 
+         repeating-linear-gradient(
+            rgb(114,47,145),
+            rgb(32,19,61)); */
+}
